@@ -135,6 +135,11 @@ header h1 {
 
 /* registration form styles */
 .regForm {
-  display: flex;
+  display: none;
   height: 43%;
+}
+
+#regNav {
+  cursor: pointer;
+  color: green;
 }
