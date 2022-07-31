@@ -72,7 +72,7 @@ header h1 {
   background-color: white;
   flex-direction: column;
   width: 20%;
-  height: 30%;
+  height: 35%;
   text-align: center;
   align-content: center;
   border-radius: 5px;
@@ -107,7 +107,11 @@ header h1 {
 
 #lgSub {
   width: 20%;
-  margin: auto;
+  margin: 5px auto;
+}
+
+.lgForm p {
+  margin-top: 15px;
 }
 
 /* animatin for login window */
