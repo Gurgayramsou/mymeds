@@ -19,3 +19,24 @@ body {
     height: 100%;
     position: fixed;
 }
+
+header{
+    display: flex;
+    align-content: flex-start;
+}
+
+header h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 2em;
+    font-size: 3.5em;
+    margin: 0% 2%;
+}
+
+#logoImg{
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    left: -47px;
+    top: -52px;
+}
