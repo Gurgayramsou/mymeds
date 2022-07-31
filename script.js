@@ -4,3 +4,4 @@ lgBtn.addEventListener('click', function () {
   formLog.style.display = 'flex';
   formLog.style.top = '40%';
 });
+

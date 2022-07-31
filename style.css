@@ -128,3 +128,9 @@ header h1 {
     opacity: 1;
   }
 }
+
+/* registration form styles */
+.regForm {
+  display: none;
+  height: 43%;
+}
