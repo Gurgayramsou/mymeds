@@ -22,7 +22,7 @@ body {
 
 header{
     display: flex;
-    align-content: flex-start;
+    
 }
 
 header h1{
@@ -31,6 +31,7 @@ header h1{
     font-weight: 2em;
     font-size: 3.5em;
     margin: 0% 2%;
+    text-shadow: black 3px 6px 5px;
 }
 
 #logoImg{
@@ -39,4 +40,67 @@ header h1{
     position: absolute;
     left: -47px;
     top: -52px;
+}
+
+#logBtn{
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 2em;
+    width: 6em;
+    position: absolute;
+    right: 50px;
+    align-self: center;
+    transition: all 0.6s;
+    box-shadow: black 3px 3px 10px;
+}
+
+#logBtn:hover{
+    height: 2.5em;
+    width: 6.5em;
+    background-color: black;
+    box-shadow: white 3px 3px 10px;
+}
+
+.lgForm{
+    display: none;
+    background-color: white;
+    flex-direction: column;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: black 6px 8px 20px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.lgForm h3{
+   margin-top: 5%;
+   margin-bottom: 3%;
+   font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.lgForm input{
+   margin-top: 10px;
+   height: 25px;
+   width: 75%;
+   border-radius: 5px; 
+   margin: 3% auto;
+   text-align: center;
+   border: 0.1px solid rgb(131, 171, 187);
+}
+.lgForm input:focus{
+    border: 0px !important;
+    outline: none;
+    box-shadow: rgb(131, 171, 187) 1px 1px 8px !important;
+    
+}
+
+#lgSub{
+    width: 20%;
+    margin: auto;
 }
